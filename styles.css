@@ -90,6 +90,7 @@ button { font-family: inherit; }
   backdrop-filter: saturate(180%) blur(16px);
   -webkit-backdrop-filter: saturate(180%) blur(16px);
   border-bottom: 1px solid rgba(203, 213, 225, 0.5);
+  isolation: isolate;
 }
 
 .nav {
@@ -505,6 +506,45 @@ section { padding: 5.5rem 1.5rem; }
   border-radius: 2px;
 }
 
+/* App store download badges */
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1rem;
+  background: #0f172a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #0f172a;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  min-width: 150px;
+}
+.store-badge:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.store-badge-icon { width: 24px; height: 24px; flex-shrink: 0; }
+.store-badge-text { display: flex; flex-direction: column; line-height: 1.1; }
+.store-badge-small {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+.store-badge-large {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
 /* Feature list (pill grid) */
 .feature-list {
   list-style: none;
@@ -695,8 +735,18 @@ section { padding: 5.5rem 1.5rem; }
 }
 .info-block .ic svg { width: 22px; height: 22px; }
 .info-block h4 { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.25rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
-.info-block p { margin: 0; color: var(--text); font-weight: 500; }
+.info-block p {
+  margin: 0;
+  color: var(--text);
+  font-weight: 500;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+.info-block a { word-break: break-all; }
 .info-block p + p { margin-top: 0.2rem; }
+.info-block > div { min-width: 0; flex: 1; }
 
 /* ---------------- Contact page layout ---------------- */
 .page-hero-tight { padding: 2rem 1.5rem 2.5rem; }
