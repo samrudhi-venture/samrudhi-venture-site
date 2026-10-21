@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="88" height="88" role="img" aria-label="Samrudhi Venture icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360" role="img" aria-label="Samrudhi Venture icon - sprout leaves in a gold ring">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E5FF2"/>
-      <stop offset="1" stop-color="#0EA5E9"/>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EBCB7A"/>
+      <stop offset="0.5" stop-color="#D9A62E"/>
+      <stop offset="1" stop-color="#C08F1F"/>
     </linearGradient>
   </defs>
-  <rect x="6" y="6" width="76" height="76" rx="20" fill="url(#g)"/>
-  <path d="M57 28 C57 19, 27 18, 27 31 C27 41, 55 42, 55 53 C55 66, 25 66, 25 57" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round"/>
+  <!-- Gold ring in three segments (gaps where the leaves break out, and at the bottom) -->
+  <path d="M87.7 122 A110 110 0 0 1 249.2 96.5" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M75.4 148 A110 110 0 0 0 168.5 291.4" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M280.5 137.2 A110 110 0 0 1 202.9 289.6" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <!-- Left leaf -->
+  <path d="M76 128 C100 122, 185 172, 178 244 C112 246, 62 190, 76 128 Z" fill="#065A30"/>
+  <path d="M172 236 C156 202, 140 175, 122 156" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right leaf (larger, tip breaking out of the ring) -->
+  <path d="M180 244 C175 165, 218 112, 282 86 C296 160, 255 238, 180 244 Z" fill="#065A30"/>
+  <path d="M184 237 C198 188, 214 158, 234 134" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
 </svg>

@@ -111,6 +111,8 @@ button { font-family: inherit; }
   letter-spacing: -0.02em;
 }
 .brand:hover { color: var(--text); }
+.brand-logo { display: block; width: auto; }
+.brand-logo-footer { background: #fff; border-radius: 12px; padding: 0.25rem 0.75rem; }
 
 .nav-links { list-style: none; display: flex; gap: 0.3rem; align-items: center; }
 .nav-links a {

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 360" width="840" height="360" role="img" aria-label="Samrudhi Venture logo">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EBCB7A"/>
+      <stop offset="0.5" stop-color="#D9A62E"/>
+      <stop offset="1" stop-color="#C08F1F"/>
+    </linearGradient>
+  </defs>
+  <g>
+  <!-- Gold ring in three segments (gaps where the leaves break out, and at the bottom) -->
+  <path d="M87.7 122 A110 110 0 0 1 249.2 96.5" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M75.4 148 A110 110 0 0 0 168.5 291.4" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path d="M280.5 137.2 A110 110 0 0 1 202.9 289.6" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <!-- Left leaf -->
+  <path d="M76 128 C100 122, 185 172, 178 244 C112 246, 62 190, 76 128 Z" fill="#065A30"/>
+  <path d="M172 236 C156 202, 140 175, 122 156" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right leaf (larger, tip breaking out of the ring) -->
+  <path d="M180 244 C175 165, 218 112, 282 86 C296 160, 255 238, 180 244 Z" fill="#065A30"/>
+  <path d="M184 237 C198 188, 214 158, 234 134" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</g>
+  <text x="338" y="168" font-family="Poppins, 'Plus Jakarta Sans', Arial, sans-serif" font-size="72" font-weight="800" fill="#17573F" textLength="464" lengthAdjust="spacingAndGlyphs">SAMRUDHI</text>
+  <text x="342" y="228" font-family="Poppins, 'Plus Jakarta Sans', Arial, sans-serif" font-size="34" font-weight="600" fill="#D9A62E" textLength="290" lengthAdjust="spacingAndGlyphs">VENTURE</text>
+  <line x1="342" y1="256" x2="802" y2="256" stroke="#D8D8D8" stroke-width="2"/>
+  <text x="342" y="292" font-family="Poppins, 'Plus Jakarta Sans', Arial, sans-serif" font-size="19" font-weight="500" fill="#6E7B72" textLength="458" lengthAdjust="spacingAndGlyphs">GROWTH • OPPORTUNITY • PROGRESS</text>
+</svg>
