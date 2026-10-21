@@ -112,44 +112,6 @@ button { font-family: inherit; }
 }
 .brand:hover { color: var(--text); }
 
-.brand-mark {
-  width: 44px; height: 44px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  background-image: url('samrudhi_icon.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  /* 'contain' ensures the logo is sharp and fully visible */
-  background-size: contain;
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  border: 1px solid #f1f5f9;
-  position: relative;
-  overflow: hidden;
-}
-.brand-mark::after {
-  display: none;
-}
-.brand-mark svg { display: none; }
-
-.brand-name {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 800;
-  font-size: 1.2rem;
-  letter-spacing: -0.02em;
-  color: var(--text);
-  white-space: nowrap;
-  line-height: 1;
-}
-.brand-name span {
-  font-weight: 500;
-  color: var(--muted);
-  margin-left: 0.15rem;
-}
-.brand-name.on-dark { color: #fff; }
-.brand-name.on-dark span { color: var(--accent-soft); }
-
 .nav-links { list-style: none; display: flex; gap: 0.3rem; align-items: center; }
 .nav-links a {
   color: var(--text-soft);
